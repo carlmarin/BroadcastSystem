@@ -1,0 +1,217 @@
+@font-face {
+    font-family: BebasNeueBold;
+    src: url("../fonts/BebasNeue Bold.otf");
+}
+
+@font-face {
+    font-family: BebasNeueBook;
+    src: url("../fonts/BebasNeue Book.otf");
+}
+
+@font-face {
+    font-family: BebasNeueLight;
+    src: url("../fonts/BebasNeue Light.otf");
+}
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url("../fonts/BebasNeue Regular.otf");
+}
+
+@font-face {
+    font-family: BebasNeueThin;
+    src: url("../fonts/BebasNeue Thin.otf");
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: BebasNeueBold;
+}
+
+body{
+    padding-top: 50px;
+}
+
+.npm{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-default {
+    border: 0;
+    background-color: #343434;
+    font-family: BebasNeueBook;
+    font-size: 15pt;
+    height: 50px;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-brand{
+    padding: 5px;
+    font-size: 30pt;
+}
+
+.navbar-brand span{
+    color: white;
+}
+
+.navbar-collapse{
+    font-size: 20pt;
+    background-color: #343434;
+}
+
+.navbar-collapse .navbar-nav li a{
+    color: white;
+}
+
+.navbar-collapse .navbar-nav li a:visited{
+    color: white;
+}
+
+.navbar-collapse .navbar-nav li a:hover{
+    color: rgb(175,20,20);
+}
+
+
+.namelogo{
+    width: auto;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar-brand span{
+        font-size:20pt;
+    }
+
+}
+
+.popover{
+    background-color: rgb(52,52,52);
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.popover-title{
+    background-color: rgb(175,20,20);
+    color: white;
+}
+
+.popover-title, .popover-title .container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.popover-title .container-fluid{
+    padding-top: 10px;
+}
+
+.popover-content {
+    color: white;
+}
+
+.popover.bottom .arrow:after {
+    border-bottom-color: rgb(175,20,20);
+}
+
+#maincontent #mainnavtabs{
+    font-size: 17pt;
+    background-color: rgb(175,20,20);
+}
+
+#maincontent #mainnavtabs li a{
+    border: medium none;
+    border-radius: 0; 
+    color: white;
+}
+
+#maincontent #mainnavtabs li a:hover{
+    background-color: rgba(52,52,52,0.5);
+    color: white;
+}
+
+#maincontent #mainnavtabs li.active a,
+#maincontent #mainnavtabs li.active a:hover,
+#maincontent #mainnavtabs li.active a:focus{
+    background-color: white;
+    color: rgb(52,52,52);
+}
+
+#map{
+    height: 100vh;
+}
+
+#reportcontainer{
+    background-color: white;
+}
+
+#navtabsreports ul.nav-tabs{
+    font-size: 12pt;
+    border: medium none;
+}
+
+#navtabsreports ul.nav-tabs li a{
+    border: medium none;
+    border-radius: 0; 
+    color: rgb(52,52,52);
+}
+
+#navtabsreports ul.nav-tabs li a:hover{
+    background-color: rgb(175,20,20);
+    color: white;
+}
+
+#navtabsreports ul.nav-tabs li.active a,
+#navtabsreports ul.nav-tabs li.active a:hover,
+#navtabsreports ul.nav-tabs li.active a:focus{
+    background-color: rgb(52,52,52) !important;
+    color: white;
+}
+
+.ajaxreportdiv{
+    padding-top: 5px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#ajaxreportdiv{
+    height: 90vh;
+    background-color: rgb(52,52,52);
+}
+
+div.feedItem{
+    background-color: white;
+    /*border-radius: 5px;*/
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family: Arial;
+}
+
+#Signup{
+    color: white;
+}
+
+#Signup .modal-header, #Signup .modal-footer{
+    background-color: #004c99;
+}
+
+#Signup .modal-body{
+    background-color: #404040;
+}
+
+#Editprofile{
+    color: white;
+}
+
+#Editprofile .modal-header, #Editprofile .modal-footer{
+    background-color: #004c99;
+}
+
+#Editprofile .modal-body{
+    background-color: #404040;
+}

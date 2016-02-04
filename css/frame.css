@@ -1,0 +1,11 @@
+iframe#frame.window
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width:100%;
+	background-color: white;
+	font-size: 25px;
+}
+ 

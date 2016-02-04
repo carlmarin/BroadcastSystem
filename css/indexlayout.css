@@ -1,0 +1,325 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+hr {
+    max-width: 60%;
+    border-color: white;
+    border-width: 3px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.modalbtn{
+    cursor: pointer;
+}
+
+.form-control { margin-bottom: 10px; }
+
+.namelogo{
+    height: 100%;
+}
+
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #343434;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #af1414;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #af1414;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #af1414!important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #fff;
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #006666;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #af1414;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #af1414;
+    }
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    min-height: auto;
+    color: #fff;
+    background-image: url(../images/wall.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+header .header-content img:nth-child(1){
+    width: 30%;
+    height: auto;
+}
+
+header .header-content img:nth-child(2){
+    width: 30%;
+    height: auto;
+}
+
+@media(max-width:768px) {
+
+    header{
+        height: auto;
+        padding: 50px 15px;
+    }
+
+    header .header-content {
+        padding: 70px 15px;
+    }
+
+    header .header-content img:nth-child(1){
+        width: 45%;
+        height: auto;
+    }
+
+    header .header-content img:nth-child(2){
+        width: 45%;
+        height: auto;
+    }
+
+}
+
+.triage{
+    padding: 10px;  
+}
+
+.circlediv{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15pt;
+}
+
+div#triage div:nth-child(1) div{
+    background-color: #004c99;
+}
+
+div#triage div:nth-child(2) div{
+    background-color: #cc6600;
+}
+
+div#triage div:nth-child(3) div{
+    background-color: #4c9900;
+}
+
+div#triage div:nth-child(4) div{
+    background-color:       #800000;
+}
+
+section#aboutmert div.container-fluid div.row:nth-child(1){
+    background-color: #606060;
+}
+
+section#aboutmert div#mertinfo{
+    padding: 50px;
+    color: white;
+}
+
+section#aboutmert div.row:nth-child(1) img{
+    padding: 10px;
+    height: 170px;
+}
+
+section#aboutmert div.container-fluid div.row:nth-of-type(2) div.row{
+    background-color: white;
+}
+
+div.service-box{
+    text-align: center;
+    padding: 20px;
+}
+
+div.service-box i{
+    color: rgb(175,20,20);
+}
+
+section#aboutmcdrrmo div.row{
+    background-color:#009999;
+    padding: 20px;
+}
+
+section#aboutmcdrrmo div.row:nth-child(1) div.col-sm-3{
+    vertical-align: middle;
+}
+
+section#aboutmcdrrmo div.row:nth-child(1) img{
+    padding: 10px;
+    height: 200px;
+}
+
+section#aboutmcdrrmo div.row:nth-child(1) div.col-sm-7 h1{
+    color: white;
+}
+
+section#aboutmcdrrmo div.row:nth-child(1) div.col-sm-7 h2{
+    text-align: right;
+}
+
+section#aboutmcdrrmo div.row:nth-child(1) div.col-sm-7 p{
+    text-align: justify;
+}
+
+section#aboutdevelopers{
+    background-color: white;
+}
+
+img.profpic{
+    width: 50%;
+    height: auto;
+}
+
+section#contactus{
+    background-color: #606060;
+    color: white;
+}
+
+footer#footer{
+    padding: 10px;
+    background-color: rgb(175,20,20);
+    color: white;
+}
+
+.modal-content{
+    border-radius: 12px;
+}
+
+.modal-header{
+    background-color: #004c99;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    color: white;
+}
+
+.modal-body{
+    background-color: #404040;
+}
+
+.modal-footer{
+    background-color: #004c99;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    color: white;
+}
+/*
+.emservicon{
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+    max-height: 120px;
+    cursor: pointer;
+}*/
